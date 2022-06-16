@@ -1,0 +1,93 @@
+.container {
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  width: 60%;
+  height: 80%;
+  padding: 0 1em;
+  margin: auto;
+}
+
+.sentence-container h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  height: 40%;
+}
+
+.sentence {
+  color: #285490;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+.keyboard-container {
+  width: 100%;
+  height: 50%;
+}
+
+.score {
+  font-weight: 600;
+  font-size: 2.4rem;
+}
+
+.keyboard-inputs {
+  height: 100%;
+}
+
+input {
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+.input {
+  background-color: #efefef;
+  font-size: 2rem;
+  width: 100%;
+  height: 80%;
+  margin-top: 20px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.input:last-child {
+  background-color: #ffb74d;
+}
+
+.input-column:last-of-type > .input:last-child {
+  background-color: #efefef;
+}
+
+.input + .input {
+  margin-left: 20px;
+}
+
+.input-column {
+  display: flex;
+  height: 25%;
+  width: 100%;
+}
+
+.next {
+  font-family: 'Open Sans', sans-serif;
+  border: none;
+  background-color: #388e3c;
+  color: #efefef;
+  font-size: 1.2rem;
+  padding: 0.5em;
+  margin-top: 1em;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.game-won {
+  width: 80%;
+  background-color: #efefef;
+  padding: 0.5rem;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  font-weight: 500;
+}
